@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../footer/Footer'
-import Logo from './athlete1.jpg'
+import Logo from './a2.png'
 
 export default function MainPage() {
   return (
