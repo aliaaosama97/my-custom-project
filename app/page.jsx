@@ -12,6 +12,7 @@ export default function Home() {
         <Header/>
         {/* Main Content */}
         <MainPage/>
+        
       </div>
     </div>
   );
