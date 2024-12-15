@@ -4,7 +4,7 @@ import Footer from '../footer/Footer'
 
 export default function MainPage() {
   return (
-    <main className="flex justify-between items-center px-10">
+    <main className="flex justify-between items-center px-10 mt-24">
         {/* Left Section */}
         <div className="max-w-screen-md">
         <h1 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-8">

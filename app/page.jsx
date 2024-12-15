@@ -7,15 +7,14 @@ import BG from './assets/Fitness.png'
 
 export default function Home() {
   return (
-    <div className="bg-redMain min-h-screen">
-      <div className="h-screen bg-cover bg-center"
-      style={{ backgroundImage: `url(${BG.src})` }}>
-        {/* Header */}
-        <Header/>
-        {/* Main Content */}
-        <MainPage/>
-        
-      </div>
+    <div className="h-screen bg-cover bg-center"
+    style={{ backgroundImage: `url(${BG.src})` }}>
+      {/* Header */}
+      <Header/>
+      {/* Main Content */}
+      <MainPage/>
+      
     </div>
+    
   );
 }
