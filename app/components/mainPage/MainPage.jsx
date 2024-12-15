@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../footer/Footer'
-import Logo from './a2.png'
+
 
 export default function MainPage() {
   return (
@@ -27,13 +27,6 @@ export default function MainPage() {
         <div className="relative">
           {/* Red Accent */}
           <div className="absolute top-0 left-0 w-80 h-full bg-redMain -z-10"></div>
-          {/* Image */}
-          <img
-            src={Logo}
-            alt="Athlete jumping"
-            className="relative z-10"
-          />
-          
         </div>
       </main>
   )
