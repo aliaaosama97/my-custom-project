@@ -9,11 +9,14 @@ export default function Home() {
   return (
     <div className="h-screen bg-cover bg-center"
     style={{ backgroundImage: `url(${BG.src})` }}>
-      {/* Header */}
-      <Header/>
-      {/* Main Content */}
-      <MainPage/>
-      
+        <div className="pl-16 pr-16">
+          {/* Header */}
+          <Header/>
+        </div>
+        <div className="pl-16">
+          {/* Main Content */}
+          <MainPage/>
+      </div>
     </div>
     
   );
